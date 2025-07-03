@@ -120,7 +120,7 @@ export function useGame() {
   /* --- Boshlang‘ich grid --- */
   const initGame = useCallback(() => {
     setScore(0);
-    setGrid((g) => addRandomTile(addRandomTile(generateEmptyGrid())));
+    setGrid(() => addRandomTile(addRandomTile(generateEmptyGrid())));
   }, []);
 
   /* --- Keydown listener --- */

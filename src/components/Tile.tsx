@@ -1,5 +1,5 @@
 // src/components/Tile.tsx
-import React from "react";
+
 
 interface TileProps {
   value: number | null;
