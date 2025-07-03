@@ -1,5 +1,5 @@
 // src/components/GameBoard.tsx
-import React from "react";
+
 import Tile from "./Tile";
 import type { GridType } from "../hooks/useGame";
 
